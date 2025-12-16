@@ -1,0 +1,36 @@
+/* RESET VITE DEFAULTS — DO NOT CENTER THE APP */
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+}
+
+/* REMOVE FLEX CENTERING */
+body {
+  display: block;
+  background: #FDFCFB;
+  color: #2B2B2B;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* REMOVE DARK MODE OVERRIDES */
+:root {
+  color-scheme: light;
+}
+
+/* Neutral button reset */
+button {
+  font-family: inherit;
+  background: none;
+  border: none;
+}
+
+.app-content {
+  min-height: 100vh;
+  transition: margin-left 0.3s ease;
+}
